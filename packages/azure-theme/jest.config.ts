@@ -22,9 +22,9 @@ module.exports = {
   displayName: 'azure-theme',
   preset: '../../jest.preset.js',
   transform: {
-    '^.+\\.[tj]s$': ['@swc/jest', swcJestConfig],
+    '^.+\\.[tj]sx?$': ['@swc/jest', swcJestConfig],
   },
-  moduleFileExtensions: ['ts', 'js', 'html'],
+  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'html'],
   testEnvironment: 'jsdom',
   coverageDirectory: '../../coverage/packages/azure-theme',
 };
