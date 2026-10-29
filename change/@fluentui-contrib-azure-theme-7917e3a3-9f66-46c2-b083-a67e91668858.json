@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "Add opt-in Nudge gradient styling for Fluent secondary buttons.",
+  "packageName": "@fluentui-contrib/azure-theme",
+  "email": "aisullivan@microsoft.com",
+  "dependentChangeType": "patch"
+}
